@@ -29,7 +29,7 @@ các tham số ban đầu có thể để fix cứng, sau đó fix thành cho ng
 # Nguồn tham khảo
 https://github.com/topics/aliexpress-crawler
 
-Phase 1: đánh giá bài toán.
+# Phase 1: đánh giá bài toán.
 Bước 1: kiểm tra xem gửi request đến thì có thu về đc kết quả ko.
 Yêu cầu đăng nhập khi gửi request đến bliexpress
 - thử lấy thông tin thì hiện tại chưa lấy đc

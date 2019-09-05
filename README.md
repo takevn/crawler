@@ -1,5 +1,5 @@
 # crawler
-crawler some thing like ali vnexpress
+crawler some thing like bliexpress
 
 # Bài toán
 ## Input: các tuỳ chọn của người dùng
@@ -29,3 +29,9 @@ các tham số ban đầu có thể để fix cứng, sau đó fix thành cho ng
 # Nguồn tham khảo
 https://github.com/topics/aliexpress-crawler
 
+Phase 1: đánh giá bài toán.
+Bước 1: kiểm tra xem gửi request đến thì có thu về đc kết quả ko.
+Yêu cầu đăng nhập khi gửi request đến bliexpress
+- thử lấy thông tin thì hiện tại chưa lấy đc
+-> không biết có phải do yêu cầu đăng nhập thì mới lấy đc không.
+-> cần 3 ngày để xem lấy thông tin thế nào.

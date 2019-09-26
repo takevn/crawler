@@ -48,6 +48,7 @@ Vấn đề gặp phải:
 # Phase 2: 20190925
 
 1. Lọc sản phẩm theo blacklist keywords
+
 trong phần này tôi sẽ có 1 file từ khóa.
 tool sẽ có nhiệm vụ là check trong title nếu có cụm từ giống 1 cụm từ bất kì trong file thì sẽ không lấy sản phẩm đấy.
 ->
@@ -58,6 +59,7 @@ file từ khóa thì tôi để mỗi một cụm từ là 1 dòng
 trước và sau mỗi cụm từ trong title không  được liền sát 1 kí tự nào ngoài kí tự khoảng trắng
 
 2. Lọc theo: "mục ship hàng bằng hình thức aliexpress direct"
+
 vì mình chủ định bán hàng bên UAE nên ông chuyển trang web ali sang thị trường UAE, 
 trong đấy tool sẽ chỉ lấy những mặt hàng có mục ship hàng bằng hình thức aliexpress direct, 
 (giá + tiền ship aliexpress direct)* hệ số
@@ -66,6 +68,7 @@ A: ĐÂY LÀ 1 SP CÓ SHIP ALI DIRECT
 https://scontent-nrt1-1.xx.fbcdn.net/v/t1.15752-9/70873821_2340088239574842_3720830176838287360_n.png?_nc_cat=111&_nc_oc=AQlI1aTheJU7vSq9Eqm-UxDc60qQec3m0IBZ0fSRVnifW5oEV8beLmK0udEX3uaURnk&_nc_ht=scontent-nrt1-1.xx&oh=d49dd36e10bc8b1955a3cdfed02b61a7&oe=5E3BC8F8
 
 3. Customize Product Description
+
 "<p><b>Best Price & Quality for a {tittle} </b></p>
 {Productspecific}
 {Productdescription}
@@ -78,6 +81,7 @@ cái này mình có 1 mẫu chung, phần bôi đỏ là dữ liệu lấy đc t
 và [tittle, Productspecific, Productdescription] mình lấy từ bên trang gốc của aliexpress rồi cho vào format như bên trên ấy gì. OK.
 
 4. Vấn đề bliexpress chặn request liên tục.
+
 Ali nó ko cho request nhanh đâu
 tool hiện tại là nó để request 4-5s 1 sản phẩm
 đăng kí cái API gì ấy để request đc nhiều sp với đc nhiều thông tin

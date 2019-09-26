@@ -68,13 +68,13 @@ A: ĐÂY LÀ 1 SP CÓ SHIP ALI DIRECT
 https://scontent-nrt1-1.xx.fbcdn.net/v/t1.15752-9/70873821_2340088239574842_3720830176838287360_n.png?_nc_cat=111&_nc_oc=AQlI1aTheJU7vSq9Eqm-UxDc60qQec3m0IBZ0fSRVnifW5oEV8beLmK0udEX3uaURnk&_nc_ht=scontent-nrt1-1.xx&oh=d49dd36e10bc8b1955a3cdfed02b61a7&oe=5E3BC8F8
 
 3. Customize Product Description
-[code]
-"<p><b>Best Price & Quality for a {tittle} </b></p>
+```
+<p><b>Best Price & Quality for a {tittle} </b></p>
 {Productspecific}
 {Productdescription}
 {reason}
-<p><b>★★★Don't hesitate, Scroll to the top now and click Add to Cart to take this amazing  product today.!</b></p>"
-[/code]
+<p><b>★★★Don't hesitate, Scroll to the top now and click Add to Cart to take this amazing  product today.!</b></p>
+```
 cái des này ngoài phần lấy ở bên ali thì tôi có thêm các mục kêu gọi bán hàng của mình nữa, 
 cái này mình có 1 mẫu chung, phần bôi đỏ là dữ liệu lấy đc từ ali để điền vào đó.
 -> tức là mình customize lại theo phần mô tả theo ý của mình, 
